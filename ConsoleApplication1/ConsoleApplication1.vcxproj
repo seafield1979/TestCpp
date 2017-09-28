@@ -138,6 +138,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CTest.hpp" />
     <ClInclude Include="CTest1.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -145,6 +146,23 @@
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="CTest1.cpp" />
+    <ClCompile Include="CTestMemory.cpp" />
+    <ClCompile Include="CTestArray.cpp" />
+    <ClCompile Include="CTestExp.cpp" />
+    <ClCompile Include="CTestClass.cpp" />
+    <ClCompile Include="CTestClassAccess.cpp" />
+    <ClCompile Include="CTestClassInherit.cpp" />
+    <ClCompile Include="CTestEnum.cpp" />
+    <ClCompile Include="CTestFile.cpp" />
+    <ClCompile Include="CTestFunc.cpp" />
+    <ClCompile Include="CTestIf.cpp" />
+    <ClCompile Include="CTestLoop.cpp" />
+    <ClCompile Include="CTestPointer.cpp" />
+    <ClCompile Include="CTestPreprocessor.cpp" />
+    <ClCompile Include="CTestStr.cpp" />
+    <ClCompile Include="CTestStruct.cpp" />
+    <ClCompile Include="CTestSwitch.cpp" />
+    <ClCompile Include="CTestVar.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

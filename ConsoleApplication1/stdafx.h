@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <tchar.h>
 #include <string.h>
+#include <stdlib.h>
 
 
 // TODO: プログラムに必要な追加ヘッダーをここで参照してください
