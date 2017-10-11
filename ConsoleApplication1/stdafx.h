@@ -6,6 +6,7 @@
 #pragma once
 
 #include "targetver.h"
+#include "StructTest1.h"
 
 #include <stdio.h>
 #include <tchar.h>

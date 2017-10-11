@@ -98,6 +98,26 @@ void testEnum(int id) {
 	}
 }
 
+// 数学関数
+void testMath(int id) {
+	CTestMath test;
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	case 4:
+		test.test4();
+		break;
+	}
+}
+
+
 // メモリ管理
 void testMemory(int id) {
 	CTestMemory test;
@@ -110,6 +130,9 @@ void testMemory(int id) {
 		break;
 	case 3:
 		test.test3();
+		break;
+	case 4:
+		test.test4();
 		break;
 	}
 }
@@ -207,6 +230,12 @@ void testFile(int id) {
 	case 3:
 		test.test3();
 		break;
+	case 4:
+		test.test4();
+		break;
+	case 5:
+		test.test5();
+		break;
 	}
 }
 
@@ -222,6 +251,15 @@ void testFunc(int id) {
 		break;
 	case 3:
 		test.test3();
+		break;
+	case 4:
+		test.test4();
+		break;
+	case 5:
+		test.test5();
+		break;
+	case 6:
+		test.test6();
 		break;
 	}
 }
@@ -262,9 +300,9 @@ void testPointer(int id) {
 }
 
 
-// プリプロセッサ
-void testPreprocessor(int id) {
-	CTestPreprocessor test;
+// マクロ
+void testMacro(int id) {
+	CTestMacro test;
 	switch (id) {
 	case 1:
 		test.test1();
@@ -309,6 +347,23 @@ void testStruct(int id) {
 		break;
 	}
 }
+
+// メモリ管理
+void testUnion(int id) {
+	CTestUnion test;
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	}
+}
+
 
 // ループ
 void testLoop(int id) {
@@ -410,11 +465,17 @@ int main()
 		else if (strcmp(info->code, "loop") == 0) {
 			testLoop(info->id);
 		}
+		else if (strcmp(info->code, "macro") == 0) {
+			testMacro(info->id);
+		}
+		else if (strcmp(info->code, "math") == 0) {
+			testMath(info->id);
+		}
+		else if (strcmp(info->code, "mem") == 0) {
+			testMemory(info->id);
+		}
 		else if (strcmp(info->code, "pointer") == 0) {
 			testPointer(info->id);
-		}
-		else if (strcmp(info->code, "pp") == 0) {
-			testPreprocessor(info->id);
 		}
 		else if (strcmp(info->code, "str") == 0) {
 			testStr(info->id);
@@ -430,6 +491,12 @@ int main()
 		}
 		else if (strcmp(info->code, "if") == 0) {
 			testIf(info->id);
+		}
+		else if (strcmp(info->code, "union") == 0) {
+			testUnion(info->id);
+		}
+		else {
+			printf_s("not found!\n");
 		}
 
 		printf_s("input test code: ");

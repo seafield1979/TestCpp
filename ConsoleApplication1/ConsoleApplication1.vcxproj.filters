@@ -16,6 +16,9 @@
     <Filter Include="ソース ファイル\CTest">
       <UniqueIdentifier>{5fe6e8e4-fc4f-438d-b376-7143bec69df9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\CppTest">
+      <UniqueIdentifier>{538caa9a-aa26-4bfd-9729-4f1e7337b559}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -31,6 +34,12 @@
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="CTest.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="StructTest1.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CppTest.hpp">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
@@ -77,9 +86,6 @@
     <ClCompile Include="CTestClassAccess.cpp">
       <Filter>ソース ファイル\CTest</Filter>
     </ClCompile>
-    <ClCompile Include="CTestPreprocessor.cpp">
-      <Filter>ソース ファイル\CTest</Filter>
-    </ClCompile>
     <ClCompile Include="CTestFile.cpp">
       <Filter>ソース ファイル\CTest</Filter>
     </ClCompile>
@@ -93,6 +99,24 @@
       <Filter>ソース ファイル\CTest</Filter>
     </ClCompile>
     <ClCompile Include="CTestExp.cpp">
+      <Filter>ソース ファイル\CTest</Filter>
+    </ClCompile>
+    <ClCompile Include="StructTest1.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CTestMacro.cpp">
+      <Filter>ソース ファイル\CTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppTest1.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppTest2.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CTestMath.cpp">
+      <Filter>ソース ファイル\CTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CTestUnion.cpp">
       <Filter>ソース ファイル\CTest</Filter>
     </ClCompile>
   </ItemGroup>

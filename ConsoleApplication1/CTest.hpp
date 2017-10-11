@@ -13,6 +13,7 @@ public:
 	void test1();
 	void test2();
 	void test3();
+	void test4();
 };
 
 class CTestArray {
@@ -55,6 +56,11 @@ public:
 	void test1();
 	void test2();
 	void test3();
+	void test4();
+	void test5();
+private :
+	const char* mFileName = "hoge.txt";
+	const char* mFileName2 = "hoge.bin";
 };
 
 class CTestFunc {
@@ -62,6 +68,9 @@ public:
 	void test1();
 	void test2();
 	void test3();
+	void test4();
+	void test5();
+	void test6();
 };
 
 class CTestIf {
@@ -80,13 +89,20 @@ public:
 	void test3();
 };
 
-class CTestPreprocessor {
+class CTestMacro {
 public:
 	void test1();
 	void test2();
 	void test3();
 };
 
+class CTestMath {
+public:
+	void test1();
+	void test2();
+	void test3();
+	void test4();
+};
 
 class CTestStr {
 public:
@@ -111,6 +127,13 @@ public:
 
 
 class CTestLoop {
+public:
+	void test1();
+	void test2();
+	void test3();
+};
+
+class CTestUnion {
 public:
 	void test1();
 	void test2();
