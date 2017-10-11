@@ -119,5 +119,41 @@
     <ClCompile Include="CTestUnion.cpp">
       <Filter>ソース ファイル\CTest</Filter>
     </ClCompile>
+    <ClCompile Include="CppTestAccess.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppTestBase1.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppTestOverload.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppTestNameSpace.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppTestInlineFunc.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppTestRef.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppTestFriend.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppTestInherit.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppTestVirtual.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppTestOverload2.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCppTemplate.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CTestFuncP.cpp">
+      <Filter>ソース ファイル\CTest</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

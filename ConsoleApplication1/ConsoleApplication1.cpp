@@ -264,6 +264,22 @@ void testFunc(int id) {
 	}
 }
 
+// ŠÖ”ƒ|ƒCƒ“ƒ^
+void testFuncP(int id) {
+	CTestFuncP test;
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	}
+}
+
 // if•¶
 void testIf(int id) {
 	CTestIf test;
@@ -461,6 +477,9 @@ int main()
 		}
 		else if (strcmp(info->code, "func") == 0) {
 			testFunc(info->id);
+		}
+		else if (strcmp(info->code, "funcp") == 0) {
+			testFuncP(info->id);
 		}
 		else if (strcmp(info->code, "loop") == 0) {
 			testLoop(info->id);

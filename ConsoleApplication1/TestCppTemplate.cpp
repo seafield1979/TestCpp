@@ -1,0 +1,4 @@
+/*
+	テンプレート
+*/
+#include "stdafx.h"
