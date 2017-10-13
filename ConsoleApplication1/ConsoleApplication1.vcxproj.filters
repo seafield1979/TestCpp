@@ -149,11 +149,11 @@
     <ClCompile Include="CppTestOverload2.cpp">
       <Filter>ソース ファイル\CppTest</Filter>
     </ClCompile>
-    <ClCompile Include="TestCppTemplate.cpp">
-      <Filter>ソース ファイル\CppTest</Filter>
-    </ClCompile>
     <ClCompile Include="CTestFuncP.cpp">
       <Filter>ソース ファイル\CTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppTestTemplate.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

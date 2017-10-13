@@ -1,4 +1,0 @@
-/*
-	テンプレート
-*/
-#include "stdafx.h"

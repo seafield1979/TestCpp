@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include "CTest1.hpp"
 #include "CTest.hpp"
+#include "CppTest.hpp"
 #include <iostream>
 #include <string>
 
@@ -380,7 +381,6 @@ void testUnion(int id) {
 	}
 }
 
-
 // ループ
 void testLoop(int id) {
 	printf_s("testLoop\n");
@@ -430,6 +430,197 @@ void testVar(int id) {
 		break;
 	}
 }
+
+// Cppテストベース
+void testCBase1(int id) {
+	CppTestBase1 test;
+
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	}
+}
+
+// c++ アクセス制限
+void testCAccess(int id) {
+	CppTestAccess test;
+
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	}
+}
+
+//  C++ friend
+void testCFriend(int id) {
+	CppTestFriend test;
+
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	}
+}
+
+// C++ 継承
+void testCInherit(int id) {
+	CppTestInherit test;
+
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	}
+}
+
+// インライン関数
+void testCInlineFunc(int id) {
+	CppTestInline test;
+
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	}
+}
+
+// C++ namespace
+void testNamespace(int id) {
+	CppTestNameSpace test;
+
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	}
+}
+
+// c++ オーバーロード
+void testCOverload1(int id) {
+	CppTestOverload test;
+
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	}
+}
+
+// c++ 演算子のオーバーロード
+void testOverload2(int id) {
+	CppTestOverload2 test;
+
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	}
+}
+
+// c++ クラスの参照
+void testCRef(int id) {
+	CppTestRef test;
+
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	}
+}
+
+// c++ 仮想クラス、仮想関数
+void testVirtual(int id) {
+	CppTestVirtual test;
+
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	}
+}
+
+
+// c++ テンプレート
+void testCTemplate(int id) {
+	CppTestTemplate test;
+
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	}
+}
+
+
+
 
 
 int main()
@@ -513,6 +704,15 @@ int main()
 		}
 		else if (strcmp(info->code, "union") == 0) {
 			testUnion(info->id);
+		}
+		else if (strcmp(info->code, "cbase1") == 0) {
+			testCBase1(info->id);
+		}
+		else if (strcmp(info->code, "access") == 0) {
+			testCAccess(info->id);
+		}
+		else if (strcmp(info->code, "friend") == 0) {
+			testCFriend(info->id);
 		}
 		else {
 			printf_s("not found!\n");
