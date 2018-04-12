@@ -15,3 +15,4 @@
 
 
 // TODO: プログラムに必要な追加ヘッダーをここで参照してください
+#define P1(str) printf_s("%s\n", str)

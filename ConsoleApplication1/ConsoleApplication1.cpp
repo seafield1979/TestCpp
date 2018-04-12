@@ -445,6 +445,9 @@ void testCBase1(int id) {
 	case 3:
 		test.test3();
 		break;
+	case 4:
+		test.test4();
+		break;
 	}
 }
 
@@ -534,7 +537,7 @@ void testNamespace(int id) {
 }
 
 // c++ オーバーロード
-void testCOverload1(int id) {
+void testOverload1(int id) {
 	CppTestOverload test;
 
 	switch (id) {
@@ -603,7 +606,7 @@ void testVirtual(int id) {
 
 
 // c++ テンプレート
-void testCTemplate(int id) {
+void testTemplate(int id) {
 	CppTestTemplate test;
 
 	switch (id) {
@@ -705,7 +708,7 @@ int main()
 		else if (strcmp(info->code, "union") == 0) {
 			testUnion(info->id);
 		}
-		else if (strcmp(info->code, "cbase1") == 0) {
+		else if (strcmp(info->code, "base1") == 0) {
 			testCBase1(info->id);
 		}
 		else if (strcmp(info->code, "access") == 0) {
@@ -713,6 +716,31 @@ int main()
 		}
 		else if (strcmp(info->code, "friend") == 0) {
 			testCFriend(info->id);
+		}
+
+		else if (strcmp(info->code, "ref") == 0) {
+			testCRef(info->id);
+		}
+		else if (strcmp(info->code, "inherit") == 0) {
+			testCInherit(info->id);
+		}
+		else if (strcmp(info->code, "inline") == 0) {
+			testCInlineFunc(info->id);
+		}
+		else if (strcmp(info->code, "namespace") == 0) {
+			testNamespace(info->id);
+		}
+		else if (strcmp(info->code, "overload") == 0) {
+			testOverload1(info->id);
+		}
+		else if (strcmp(info->code, "overload2") == 0) {
+			testOverload2(info->id);
+		}
+		else if (strcmp(info->code, "template") == 0) {
+			testTemplate(info->id);
+		}
+		else if (strcmp(info->code, "virtual") == 0) {
+			testVirtual(info->id);
 		}
 		else {
 			printf_s("not found!\n");
