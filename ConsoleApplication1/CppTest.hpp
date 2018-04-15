@@ -81,3 +81,10 @@ public:
 	void test2();
 	void test3();
 };
+
+class CppTestString {
+public:
+	void test1();
+	void test2();
+	void test3();
+};

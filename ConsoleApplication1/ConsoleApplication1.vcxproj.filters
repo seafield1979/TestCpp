@@ -155,5 +155,8 @@
     <ClCompile Include="CppTestTemplate.cpp">
       <Filter>ソース ファイル\CppTest</Filter>
     </ClCompile>
+    <ClCompile Include="CppTestString.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

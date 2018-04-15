@@ -623,7 +623,22 @@ void testTemplate(int id) {
 }
 
 
+// string‚ÌƒeƒXƒg
+void testCString(int id) {
+	CppTestString test;
 
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	}
+}
 
 
 int main()
@@ -692,6 +707,9 @@ int main()
 		}
 		else if (strcmp(info->code, "str") == 0) {
 			testStr(info->id);
+		}
+		else if (strcmp(info->code, "string") == 0) {
+			testCString(info->id);
 		}
 		else if (strcmp(info->code, "struct") == 0) {
 			testStruct(info->id);

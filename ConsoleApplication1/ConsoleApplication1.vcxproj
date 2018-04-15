@@ -176,6 +176,7 @@
     <ClCompile Include="CTestPointer.cpp" />
     <ClCompile Include="CTestMacro.cpp" />
     <ClCompile Include="CTestStr.cpp" />
+    <ClCompile Include="CppTestString.cpp" />
     <ClCompile Include="CTestStruct.cpp" />
     <ClCompile Include="CTestSwitch.cpp" />
     <ClCompile Include="CTestUnion.cpp" />
