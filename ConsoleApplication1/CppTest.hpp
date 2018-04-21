@@ -1,5 +1,8 @@
 #pragma once
 
+#include <string>
+using namespace std;
+
 /*
 	c++のテスト用クラス
 */
@@ -13,6 +16,13 @@ public:
 };
 
 class CppTestAccess {
+public:
+	void test1();
+	void test2();
+	void test3();
+};
+
+class CppTestCollection {
 public:
 	void test1();
 	void test2();
@@ -34,6 +44,13 @@ public:
 };
 
 class CppTestInherit {
+public:
+	void test1();
+	void test2();
+	void test3();
+};
+
+class CppTestList {
 public:
 	void test1();
 	void test2();
@@ -87,4 +104,5 @@ public:
 	void test1();
 	void test2();
 	void test3();
+	void print(string &str);
 };

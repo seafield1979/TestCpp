@@ -7,6 +7,21 @@
 #include "CppTest.hpp"
 
 
+class CVirtual {
+public:
+	CVirtual()
+	{
+
+	}
+
+	~CVirtual()
+	{
+
+	}
+
+	virtual void Test1();
+};
+
 void CppTestVirtual::test1() {
 }
 

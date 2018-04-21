@@ -381,6 +381,24 @@ void testUnion(int id) {
 	}
 }
 
+// List
+void testList(int id) {
+	printf_s("testList\n");
+
+	CppTestList test;
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	}
+}
+
 // ƒ‹[ƒv
 void testLoop(int id) {
 	printf_s("testLoop\n");
@@ -689,6 +707,9 @@ int main()
 		}
 		else if (strcmp(info->code, "funcp") == 0) {
 			testFuncP(info->id);
+		}
+		else if (strcmp(info->code, "list") == 0) {
+			testList(info->id);
 		}
 		else if (strcmp(info->code, "loop") == 0) {
 			testLoop(info->id);

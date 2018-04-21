@@ -43,7 +43,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -147,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="CppTestCollection.cpp" />
     <ClCompile Include="CppTest1.cpp" />
     <ClCompile Include="CppTest2.cpp" />
     <ClCompile Include="CppTestAccess.cpp" />
@@ -154,6 +155,7 @@
     <ClCompile Include="CppTestFriend.cpp" />
     <ClCompile Include="CppTestInherit.cpp" />
     <ClCompile Include="CppTestInlineFunc.cpp" />
+    <ClCompile Include="CppTestList.cpp" />
     <ClCompile Include="CppTestNameSpace.cpp" />
     <ClCompile Include="CppTestOverload.cpp" />
     <ClCompile Include="CppTestOverload2.cpp" />

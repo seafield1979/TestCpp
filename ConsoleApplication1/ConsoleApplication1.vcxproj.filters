@@ -158,5 +158,11 @@
     <ClCompile Include="CppTestString.cpp">
       <Filter>ソース ファイル\CppTest</Filter>
     </ClCompile>
+    <ClCompile Include="CppTestList.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CppTestCollection.cpp">
+      <Filter>ソース ファイル\CppTest</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
