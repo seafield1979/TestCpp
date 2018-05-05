@@ -51,4 +51,11 @@ void CTestPointer::test2() {
 
 void CTestPointer::test3() {
 	printf_s("CTestPointer::test3\n");
+
+	// ポインタのポインタ
+	int **ppTest1;
+	int *p1;
+
+	ppTest1 = (int**)malloc(sizeof(int*) * 100);
+
 }

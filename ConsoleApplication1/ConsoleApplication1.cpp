@@ -433,6 +433,23 @@ void testSwitch(int id) {
 	}
 }
 
+// タイマー
+void testTimer(int id) {
+	CTestTimer test;
+
+	switch (id) {
+	case 1:
+		test.test1();
+		break;
+	case 2:
+		test.test2();
+		break;
+	case 3:
+		test.test3();
+		break;
+	}
+}
+
 // 変数
 void testVar(int id) {
 	CTestVar test;
@@ -740,6 +757,9 @@ int main()
 		}
 		else if (strcmp(info->code, "var") == 0) {
 			testVar(info->id);
+		}
+		else if (strcmp(info->code, "timer") == 0) {
+			testTimer(info->id);
 		}
 		else if (strcmp(info->code, "if") == 0) {
 			testIf(info->id);

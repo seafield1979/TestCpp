@@ -181,6 +181,7 @@
     <ClCompile Include="CppTestString.cpp" />
     <ClCompile Include="CTestStruct.cpp" />
     <ClCompile Include="CTestSwitch.cpp" />
+    <ClCompile Include="CTestTimer.cpp" />
     <ClCompile Include="CTestUnion.cpp" />
     <ClCompile Include="CTestVar.cpp" />
     <ClCompile Include="stdafx.cpp">
